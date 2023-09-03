@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosIA.css">
+    <title>Mi Jardín</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#quien-soy">Quién soy</a></li>
+                <li><a href="#interior">Plantas de Interior</a></li>
+                <li><a href="#exterior">Plantas de Exterior</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="quien-soy">
+        <h2>Quién soy</h2>
+        <p>¡Bienvenido a mi sitio web de jardinería! Soy [Tu Nombre] y me encanta cuidar y cultivar diversas plantas en mi jardín.</p>
+    </section>
+
+    <section id="interior">
+        <h2>Plantas de Interior</h2>
+        <div class="plantas">
+            <!-- Aquí van las plantas de interior -->
+            <div class="planta">
+                <p>croton</p>
+                <img src="imagenes/croton.jpg" alt="Planta 1">
+                <a href="info/planta2.pdf">Más información</a>
+            </div>
+            <div class="planta">
+                <p>tronco</p>
+                <img src="imagenes/tronco.jpg" alt="Planta 2">
+                <a href="info/planta3.pdf">Más información</a>
+            </div>
+            <div class="planta">
+                <p>Aspidistra</p>
+                <img src="imagenes/aspidistra.jpg" alt="Planta 3">
+                <a href="info/planta3.pdf">Más información</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="exterior">
+        <h2>Plantas de Exterior</h2>
+        <div class="plantas">
+            <!-- Aquí van las plantas de exterior -->
+            <div class="planta">
+                <p>planta 4 </p>
+                <img src="imagenes/planta4.jpg" alt="Planta 4">
+                <a href="info/planta4.pdf">Más información</a>
+            </div>
+            <div class="planta">
+                <p>Planta Exterior 2</p>
+                <img src="imagenes/planta5.jpg" alt="Planta 5">   
+                <a href="info/planta5.pdf">Más información</a>
+            </div>
+            <div class="planta">
+                <p>Planta de Exterior 3</p>
+                <img src="imagenes/planta6.jpg" alt="Planta 6">
+                <a href="info/planta6.pdf">Más información</a>
+            </div>
+        </div>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 Mi Jardín</p>
+    </footer>
+    
+</body>
+</html>
