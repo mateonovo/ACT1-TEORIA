@@ -1,0 +1,96 @@
+/* Reset de estilos y estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para el formulario de contacto */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label,
+input,
+textarea,
+button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Estilos para las secciones de plantas */
+section {
+    padding: 20px;
+}
+
+section h2 {
+    color: #333;
+}
+
+.plantas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.planta {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.planta img {
+    max-width: 100%;
+    height: auto;
+}
+
+.planta a {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: #333;
+}
+/* ... (Los estilos previos se mantienen igual) */
+
+.planta p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
